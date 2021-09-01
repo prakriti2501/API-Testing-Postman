@@ -17,13 +17,17 @@ The HTTP message which goes from client(Postman) to Server (Flicker API) is call
 
 # Most important failure points in the response
 When an API request fails due to request errors or server errors, an error response message is returned in JSON format.
+
 For Example: 
-->API request attempts to get information about a non-existent reference set
+
+->API request attempts to get information about a non-existent reference set.
+
 ->The resource is available and not modified.
+
 -> The requested resource does not support one or more of the given parameters.
 
 
-# If I were to automate this API’s response testing as a Flickr employee, the criteria I would choose as the success/fail validation would have been:
+# If I were to automate this API’s response testing as a Flickr employee, the criteria I would have chosen as the success/fail validation would have been:
 ->Status 200OK 
 
 
